@@ -57,7 +57,7 @@ function updateStats() {
 // Render albums to the grid
 function renderAlbums(albumsToRender) {
     albumGrid.innerHTML = '';
-    
+
     if (albumsToRender.length === 0) {
         noResults.style.display = 'block';
         albumGrid.style.display = 'none';
@@ -97,7 +97,7 @@ function searchAlbums() {
     const selectedGenre = genreFilter.value;
 
     filteredAlbums = albums.filter(album => {
-        const matchesSearch = searchTerm === '' || 
+        const matchesSearch = searchTerm === '' ||
             album.artist.toLowerCase().includes(searchTerm) ||
             album.album.toLowerCase().includes(searchTerm) ||
             album.genre.toLowerCase().includes(searchTerm);

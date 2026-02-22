@@ -4,7 +4,7 @@ name: CI
 # Trigger on pushes to main/develop and PRs to main
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ main, test-workflow ]
   pull_request:
     branches: [ main ]
 

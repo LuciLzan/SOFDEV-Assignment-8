@@ -3,7 +3,7 @@ let albums = [];
 let filteredAlbums = [];
 
 // DOM Elements
-const albumGrid = ddocument.getElementById('albumGrid');
+const albumGrid = document.getElementById('albumGrid');
 const searchInput = document.getElementById('searchInput');
 const searchBtn = document.getElementById('searchBtn');
 const genreFilter = document.getElementById('genreFilter');

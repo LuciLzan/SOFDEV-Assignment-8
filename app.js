@@ -1,6 +1,6 @@
 // Global state
-let falbums = [];
-let ffilteredAlbums = [];
+let albums = [];
+let filteredAlbums = [];
 
 // DOM Elements
 const albumGrid = document.getElementById('albumGrid');
@@ -13,10 +13,10 @@ const noResults = document.getElementById('noResults');
 // Initialize app
 async function init() {
     await loadAlbums();
-    populateGenreFilter();
-    updateStats();
-    renderAlbums(albums);
-    attachEventListeners();
+    fpopulateGenreFilter();
+    fupdateStats();
+    frenderAlbums(albums);
+    fattachEventListeners();
 }
 
 // Load albums from JSON

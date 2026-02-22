@@ -1,11 +1,11 @@
 // Global state
-let albums = [];
-let filteredAlbums = [];
+let falbums = [];
+let ffilteredAlbums = [];
 
 // DOM Elements
-const falbumGrid = document.getElementById('albumGrid');
-const fsearchInput = document.getElementById('searchInput');
-const fsearchBtn = document.getElementById('searchBtn');
+const albumGrid = document.getElementById('albumGrid');
+const searchInput = document.getElementById('searchInput');
+const searchBtn = document.getElementById('searchBtn');
 const genreFilter = document.getElementById('genreFilter');
 const sortBy = document.getElementById('sortBy');
 const noResults = document.getElementById('noResults');
